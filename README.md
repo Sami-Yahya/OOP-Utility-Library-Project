@@ -14,7 +14,7 @@ The main idea is to build a **Utility Library** as a single class `clsUtil`, whe
 * ✅ **Array Helpers**: Fill arrays with random numbers, words, or keys, and shuffle arrays.
 * ✅ **Swap Functions**: Overloaded `Swap` methods for `int`, `double`, `bool`, `char`, `string`, and even `clsDate`.
 * ✅ **Text Encryption/Decryption**: Simple Caesar‑style cipher using a numeric key.
-* ✅ **Useful Checking methods**: Check is a prime, palindrome, or perfect Number. and Reserve number.
+* ✅ **Useful validation methods**: Check is a prime, palindrome, or perfect number. and Reserve number.
 * ✅ **Formatting Helper**: Generate tab spacing easily.
 * ✅ **Encapsulation**: All logic wrapped in one class with static members, easy to reuse anywhere.
 
@@ -57,17 +57,17 @@ int main()
     clsUtil::Swap(A, B);
     cout << A << "\t" << B << endl;
 
-     string arr1[10];
-     clsUtil::FillArrayWithRandomWords(arr1, 10, clsUtil::CapitalLetter, 5);
-     clsUtil::PrintArray(arr1, 10);
+    string arr1[10];
+    clsUtil::FillArrayWithRandomWords(arr1, 10, clsUtil::CapitalLetter, 5);
+    clsUtil::PrintArray(arr1, 10);
 
-     int arr2[10];
-     clsUtil::FillArrayWithRandomNumbers(arr2, 10, 1, 100);
-     clsUtil::PrintArray(arr2, 10);
-     cout << "Max Number: " << clsUtil::MaxNumberInArray(arr2, 10) << endl;
-     cout << "Min Number: " << clsUtil::MinNumberInArray(arr2, 10) << endl;
-     clsUtil::ShuffleArray(arr2, 10);
-     cout << "Array after shuffling: "; clsUtil::PrintArray(arr2, 10);
+    int arr2[10];
+    clsUtil::FillArrayWithRandomNumbers(arr2, 10, 1, 100);
+    clsUtil::PrintArray(arr2, 10);
+    cout << "Max Number: " << clsUtil::MaxNumberInArray(arr2, 10) << endl;
+    cout << "Min Number: " << clsUtil::MinNumberInArray(arr2, 10) << endl;
+    clsUtil::ShuffleArray(arr2, 10);
+    cout << "Array after shuffling: "; clsUtil::PrintArray(arr2, 10);
 
     cout << "Is 234432 Palindrome: " << clsUtil::IsPalindromeNumber(234432) << endl;
     cout << "Reverse 12345: " << clsUtil::ReverseNumber(12345) << endl;
