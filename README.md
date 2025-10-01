@@ -2,7 +2,7 @@
 
 ## 🔹 Overview
 
-This project was implemented as part of **Course 11 – OOP As it Should Be (Application)** in the **Programming Advices Track (https://programmingadvices.com/)** by **Dr. Mohammed Abu-Hadhoud**.
+This project was implemented as part of **Course 11 – OOP as it Should Be (Application)** in the **Programming Advices Track (https://programmingadvices.com/)** by **Dr. Mohammed Abu-Hadhoud**.
 
 The main idea is to build a **Utility Library** as a single class `clsUtil`, where **all methods are static**. These methods don’t belong to a specific object context, but instead serve as **general-purpose helpers** for randomness, array operations, swapping, text encryption, and formatting.
 
