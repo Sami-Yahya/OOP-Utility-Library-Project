@@ -1,4 +1,4 @@
-# 📌 Project 10: Utility Library (OOP)
+# 📌 Utility Library (OOP)
 
 ## 🔹 Overview
 
