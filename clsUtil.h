@@ -38,6 +38,24 @@ public:
         S2 = Temp;
     }
 
+    static  void Swap(char& A, char& B)
+    {
+        char Temp;
+
+        Temp = A;
+        A = B;
+        B = Temp;
+    }
+
+    static  void Swap(bool& A, bool& B)
+    {
+        bool Temp;
+
+        Temp = A;
+        A = B;
+        B = Temp;
+    }
+
     static void Swap(clsDate &Date1, clsDate &Date2)
     {
         clsDate::Swap2Dates(Date1, Date2);
@@ -525,3 +543,4 @@ public:
     }
 
 };
+
